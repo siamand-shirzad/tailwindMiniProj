@@ -1,0 +1,61 @@
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>فرم ثبت‌نام انیمیشنی</title>
+  <link href="/src/output.css" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="stylesheet" href="/src/assets/fontawesome-free-6.7.2-web/css/all.min.css">
+</head>
+
+<body
+  class="animate-color bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-[length:200%_200%]  min-h-screen flex items-center justify-center">
+  <div class="w-full max-w-md p-8 bg-white rounded-2xl shadow-2xl border border-gray-200 animate-fade-in">
+
+
+
+    <div class="flex flex-col items-center gap-2 mb-6">
+      <!-- <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" class="w-16 h-16 animate-bounce" alt="signup" /> -->
+       <span class=" bg-gray-400/50 rounded-full w-16 h-16 flex justify-center items-center animate-bounce"><i class="fas fa-user text-3xl text-gray-600"></i></span>
+      <h2 class="text-2xl font-bold text-gray-800">ثبت نام کنید</h2>
+      <p class="text-gray-500 text-sm">لطفاً اطلاعات خود را وارد نمایید</p>
+    </div>
+
+
+
+
+    <form class="space-y-4">
+      <div class="flex items-center gap-3 border-b border-gray-300 py-2 focus-within:border-blue-400 transition-colors">
+        <!-- <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" class="w-5 h-5 opacity-60" /> -->
+        <span><i class="fas fa-user"></i></span>
+        <input type="text" placeholder="نام کاربری"
+          class="flex-1 text-sm bg-transparent focus:outline-none text-gray-700 placeholder-gray-400" />
+      </div>
+
+      <div class="flex items-center gap-3 border-b border-gray-300 py-2 focus-within:border-blue-400 transition-colors">
+        <!-- <img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" class="w-5 h-5 opacity-60" /> -->
+        <span><i class="fas fa-location-dot"></i></span>
+        <input type="email" placeholder="ایمیل"
+        class="flex-1 text-sm bg-transparent focus:outline-none text-gray-700 placeholder-gray-400" />
+      </div>
+      
+      <div class="flex items-center gap-3 border-b border-gray-300 py-2 focus-within:border-blue-400 transition-colors">
+        <!-- <img src="https://cdn-icons-png.flaticon.com/512/3064/3064155.png" class="w-5 h-5 opacity-60" /> -->
+        <span><i class="fas fa-fingerprint"></i></span>
+        <input type="password" placeholder="رمز عبور"
+          class="flex-1 text-sm bg-transparent focus:outline-none text-gray-700 placeholder-gray-400" />
+      </div>
+
+      <button type="submit"
+        class="w-full mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 rounded-xl shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 animate-button">
+        ثبت‌نام
+      </button>
+    </form>
+  </div>
+</body>
+
+</html>
